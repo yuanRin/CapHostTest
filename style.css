@@ -1,0 +1,37 @@
+/* Set the background color of the entire page to light gray */
+body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Center the h1 heading text and add a border at the bottom */
+  h1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+  
+  /* Style the links to be blue with no underline on hover */
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  /* Set the background color and font color of buttons and change font to Arial */
+  button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    font-family: Arial;
+  }
+  
+  /* Increase the font size of all paragraphs */
+  p {
+    font-size: 18px;
+  }
+  
+  /* Set the border radius of images to make them appear round */
+  img {
+    border-radius: 50%;
+  }
