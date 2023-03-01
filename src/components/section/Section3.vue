@@ -2,6 +2,7 @@
   <div class="item">
     <h1 class="font h1">Result</h1>
     <div class="grid-container">
+      <div v-for="(item, index) in column" :key="index" class="grid-item">{{ item }}</div>
       <div class = "grid-header font">Cp-D</div>
       <div class="grid-item font">2</div>
       <div class="grid-item font">3</div>

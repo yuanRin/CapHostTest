@@ -1,7 +1,7 @@
 <template #header>
   <div class="item">
     <h1 class="font h1">Calibration</h1>
-    <div>
+    <div id = "app">
       <button @click="handleButtonClick" class="button">Open Calibration</button>
       <button class="button">Short Calibration</button>
     </div>
