@@ -50,7 +50,7 @@
       <div class = "font grid-header">Impedance range</div>
       <div class="font grid-item">20</div>
       <div class = "font grid-header">Impedance</div>
-      <div class="font grid-item">23</div>
+      <div class="font grid-item tooltip">23</div>
     </div>
   </div>
 </template>
@@ -105,8 +105,17 @@ export default {
   display: inline-block;
   font-size: 1rem;
   margin: 4px 5px;
+  transition-duration: 0.4s;
   cursor: pointer;
 }
+
+.button:hover{
+  background-color: #17e4e4; /* Green */
+}
+
+.button:focus{
+  background-color: #83b4fd; /* Green */
+} 
 
 .grid-container {
   display: grid;
@@ -162,5 +171,4 @@ export default {
   }
 }
 </style>
-
   
